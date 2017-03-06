@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "sample",
+            "type": "chrome",
+            "request": "launch",
+            "file": "${workspaceRoot}/app/index.html",
+            "runtimeExecutable": "${env.USERPROFILE}/AppData/Local/Google/Chrome SxS/Application/chrome.exe",
+            "runtimeArgs": [
+                "-allow-file-access-from-files"
+            ]
+        }
+    ]
+}
